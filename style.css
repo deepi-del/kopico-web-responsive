@@ -7,26 +7,66 @@
     background: black;
 }
 
-.header{
+.header h1{
     text-align: center;
     align-items: center;
+    font-family: "Playfair Display", serif;;
+    text-transform: uppercase;
+    opacity: .79;
+    margin-top: 10px;
     
 }
-@media (max-width: 575.98px){
+.header p{
+    text-align: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;;
+    text-transform: uppercase;
+    opacity: .89;
+    line-height: 1px;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+#top-nav{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 90px;
+    max-width: 100%;
+}
+
+@media (max-width: 520.98px){
     h1{
-        font-size: 10px;
+        font-size: 2em;
+      
+    }
+    p{
+        font-size: 2em; 
+        min-width: 40rem;
+       
     }
 }
 
+
 .paragraph{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Playfair Display", serif;;
     opacity: -89px;
-    justify-content: center;
     text-align: center;
     margin-top: 200px;
+    color: white;
+    max-width: 80rem;
+  
     
 }
+@media screen and(max-width: 575.98px){
+    .paragraph {
+       
+        font-size: 2px;
+        margin-top: 0;
+        
+        
+    }
+}
+
 .img-fluid{
     width: 100%;
     height: auto;
@@ -73,12 +113,5 @@
 }
 .flex-item- a:hover{
     color: red;
-}
-.masthead{
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    
 }
 
