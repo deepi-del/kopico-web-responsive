@@ -33,20 +33,18 @@
     max-width: 100%;
 }
 
-@media (max-width: 520.98px){
+@media (min-width: 520.98px){
     h1{
         font-size: 2em;
       
     }
-    p{
-        font-size: 2em; 
-        min-width: 40rem;
-       
-    }
+}
+@media (min-width: 520px) {
+    .header p{ font-size: 1.25rem; }
 }
 
 
-.paragraph{
+p{
     font-size: 20px;
     font-family: "Playfair Display", serif;;
     opacity: -89px;
@@ -57,14 +55,8 @@
   
     
 }
-@media screen and(max-width: 575.98px){
-    .paragraph {
-       
-        font-size: 2px;
-        margin-top: 0;
-        
-        
-    }
+@media (min-width: 520px) {
+    p{ font-size: 1.25rem; }
 }
 
 .img-fluid{
